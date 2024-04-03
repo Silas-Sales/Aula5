@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Inputs e Formularios-->
+    <center>
+        <h1>Meu Formulário</h1>
+        <form>
+            <p>Nome: <input type="text" name="nome" id="nome" placeholder="Digite seu nome"></p>
+            <p>Sobrenome: <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome"></p>
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+        <br><br><br>
+        <!--Formulario-->
+        <fieldset>
+            <legend>Dados do Usuário</legend>
+            <form action="sobre.html">
+                <p><label for="idnome">Nome:</label>
+                <input type="text" name="nome" id="idnome" placeholder="Digite seu nome" minlength="3" maxlength="50" required name="nome"></p>
+                <p><label for="idsobrenome">Sobrenome: </label>
+                <input type="text" name="sobrenome" id="idsobrenome" placeholder="Digite seu sobrenome" minlength="3" maxlength="32" required name="sobrenome"></p>
+                <p><label for="idcidade">Cidade: </label>
+                <input type="text" name="cidade" id="idcidade" placeholder="Digite sua cidade"  required name="cidade"></p>
+                <p><label for="idemail">Email:</label>
+                <input type="text" name="email" id="idemail" placeholder="Digite seu email" required name="email"></p>
+                <br>
+                <p><input type="submit" value="Enviar"></p>
+            </form>
+        </fieldset>
+    </center>
+
+</body>
+</html>

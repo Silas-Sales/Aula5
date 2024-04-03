@@ -1,0 +1,85 @@
+body{
+    background-image: url(windows_10_imagem_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: cursive;
+    text-shadow: 5px 5px 5px rgb(235, 235, 241);
+}
+#d1{
+    width: 100px;
+    height: 75px;
+    background-color: aqua;
+    color: aquamarine;
+    border: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    transform:rotate(30deg)
+}
+#d2{
+    width: 100px;
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(7, 7, 7);
+    border: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+    border-style: solid;
+    border-width: thin;
+    box-shadow: 10px 10px 10px purple;
+    border-radius: 15px;
+}
+#d3{
+    width: 100px;
+    height: 75px;
+    background-color: rgb(247, 247, 249);
+    color: rgb(0, 0, 0);
+    border: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+    border-style: dashed; /*borda tracejada*/
+    float: none;
+    border-radius: 10px;
+    /*posicionamento;*/
+    position: static;
+}
+#d4{
+    width: 100px;
+    height: 75px;
+    background-color: rgb(254, 254, 255);
+    color: rgb(0, 0, 0);
+    border: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-style: dashed;
+    border-radius: 10px;
+
+    animation: animation 5s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes animation {
+    from{box-shadow: 10px 10px 10px red;}
+    to{box-shadow: 10px 10px 10px rgb(84, 1, 1);}
+}
+img{
+    display: inline-block;
+    border: 1px solid rgb(249, 0, 0);
+    border-radius: 5px;
+    padding: 5px;
+
+    animation: teste 5s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes teste{
+    from{box-shadow: 10px 10px 10x rgb(26, 7, 233);}
+    to{box-shadow: 10px 10px 10px rgba(252, 43, 6, 0.676);}
+}
+
